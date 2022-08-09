@@ -1,0 +1,98 @@
+    1  apt upsate
+    2  apt update
+    3  clear
+    4  apt install git
+    5  clear
+    6  mkdir test-demo
+    7  cd test-demo
+    8  ls
+    9  ls -la
+   10  git init
+   11  ls -la
+   12  cd .git
+   13  ls -la
+   14  cd branches
+   15  ls -la
+   16  cd
+   17  cd test-demo
+   18  clear
+   19  git init
+   20  clear
+   21  echo "Hi Abhishek" >> abhishek.txt
+   22  car abhishek.txt
+   23  cat abhishek.txt
+   24  claer
+   25  clear
+   26  git add abhishek.txt
+   27  git status
+   28  git commit -m "abhishek"
+   29  git config --global --edit
+   30  git remote
+   31  git branch
+   32  clear
+   33  git remote add origin https://github.com/abhishekshc8/test-demo.git
+   34  git remote
+   35  git remote -v
+   36  git push origin master
+   37  git status
+   38  clear
+   39  ls -la
+   40  vim abhishek.txt
+   41  git status
+   42  git add .
+   43  git commit -m "2nd commit"
+   44  git push origin master
+   45  clear
+   46  vim abhishek.txt
+   47  git diff
+   48  git add .
+   49  git commit -m "3nd commit"
+   50  git push origin master
+   51  git checkout -b patna
+   52  git branch
+   53  clear
+   54  git remote set-url origin https://github.com/abhishekshc8/test-demo.git
+   55  git remote
+   56  git remote -v
+   57  git branch
+   58  git push origin patna
+   59  history
+   60  vim aunny.txt
+   61  git status
+   62  clear
+   63  ls -la
+   64  git add aunny.txt
+   65  git status
+   66  git log
+   67  git checkout cc20e61904e30fd235c9e4926871d5f902cd13a2
+   68  git branch
+   69  git push origin patna
+   70  git branch patna
+   71  git checkout patna
+   72  git branch
+   73  la -ls
+   74  git push origin patna
+   75  git commit aunny-txt -m "commit"
+   76  git commit aunny.txt -m "commit"
+   77  git push origin patna
+   78  clear
+   79  vim aunny.txt
+   80  git add aunny.txt
+   81  git commit aunny.txt -m "Azure"
+   82  git remote
+   83  got branch
+   84  git branch
+   85  git push origin patna
+   86  clear
+   87  history > git_history.txt
+   88  ls -la
+   89  git diff
+   90  git add git_history.txt
+   91  git commit git_history.txt -m "history"
+   92  git branch -b history
+   93  clear
+   94  git checkout -b history
+   95  git push origin history
+   96  ls -la
+   97  vim git_history.txt
+   98  history > git.txt
